@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'Jameel Noori';
+    src: url('fonts/JameelNooriNastaleeq.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Jameel Noori', sans-serif;
+    direction: rtl;
+    text-align: right;
+    background: #f8f9fa; /* Light grey background for professionalism */
+    margin: 0;
+    padding: 0;
+}
+     .footer {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #555;
+            text-align: center;
+            font-family: 'JameelNooriNastaleeq', sans-serif;
+        }
+
+        .footer a {
+            color: #003366;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer i {
+            color: red;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+
+h2 {
+    color: #003366; /* Dark blue for a formal, authoritative feel */
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    gap: 20px;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 5px; /* Space between label and input field */
+}
+
+input[type="text"], input[type="date"], input[type="number"], select, textarea, input[type="file"] {
+    padding: 12px;
+    font-size: 1.2rem;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f4f6f9;
+    margin-bottom: 15px;
+    transition: border 0.3s ease;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="date"]:focus, input[type="number"]:focus, select:focus, textarea:focus, input[type="file"]:focus {
+    border-color: #003366; /* Dark blue on focus */
+    outline: none;
+}
+
+input[type="text"]:hover, input[type="date"]:hover, input[type="number"]:hover, select:hover, textarea:hover, input[type="file"]:hover {
+    background-color: #e9ecef;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing */
+    min-height: 100px;
+}
+
+input[type="file"] {
+    padding: 12px;
+    font-size: 1.2rem;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f4f6f9;
+    margin-bottom: 5px;
+    transition: border 0.3s ease;
+    box-sizing: border-box;
+}
+
+input[type="file"]:focus {
+    border-color: #003366;
+    outline: none;
+}
+
+input[type="file"]::file-selector-button {
+    background-color: #003366;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1rem;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background-color: #002244;
+}
+
+button {
+    background-color: #003366; /* Dark blue for consistency */
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #002244; /* Slightly darker blue on hover */
+}
+
+button:active {
+    transform: translateY(2px); /* Subtle active effect */
+}
+
+table {
+    width: 100%;
+    margin-top: 40px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+th {
+    background-color: #003366;
+    color: #fff;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e9ecef;
+}
+
+form .row {
+    display: flex;
+    flex-wrap: wrap; /* Ensures proper wrapping for small screens */
+    gap: 20px;
+}
+
+form .row input, form .row select, form .row textarea, form .row input[type="file"] {
+    width: 48%; /* Ensures two elements are aligned side by side */
+    min-width: 250px; /* Prevents shrinking below a certain width */
+}
+
+form .row textarea {
+    width: 100%; /* Full width for the textarea */
+}
+
+form .row input[type="file"] {
+    width: 100%; /* Full width for the file input */
+}
+/* Footer Container */
+.footer-container {
+    background-color: #003366;
+    padding: 20px 0;
+    margin-top: 50px; /* Space above footer */
+}
+
+.footer-container .link-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-container .footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+.footer-container .footer-link:hover {
+    color: #ffd700;  /* Gold color for hover */
+    text-decoration: underline;
+}
+
+.footer-container .footer-link:focus {
+    outline: none;
+}
+
+.footer-container .footer-link:not(:last-child) {
+    border-right: 1px solid #ddd;
+    padding-right: 15px;
+    margin-right: 15px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        margin-top: 20px;
+        padding: 20px;
+    }
+
+    form .row {
+        flex-direction: column;
+    }
+
+    form .row input, form .row select, form .row textarea, form .row input[type="file"] {
+        width: 100%; /* Ensures full width on smaller screens */
+    }
+}
